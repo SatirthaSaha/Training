@@ -53,14 +53,15 @@ table {
 }
 
 td, th {
-    border: 1px solid #dddddd;
-    text-align: left;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    text-align: center;
     padding: 8px;
 }
 
-tr:nth-child(even) {
+/* tr:nth-child(even) {
     background-color: #dddddd;
-}
+} */
 
 .sidenav {
   height: 100%;

@@ -1,0 +1,4 @@
+
+Ashutosh Tripathi 2:  create table stock (       stock_id integer not null,        current_price double precision not null,        date datetime,        time datetime,        company_code integer,        primary key (stock_id)    ) engine=MyISAM
+
+Ashutosh Tripathi 2:  alter table stock        add constraint FKdm1irxvimc1qe9q09ygaby667        foreign key (company_code)        references company (company_code)
